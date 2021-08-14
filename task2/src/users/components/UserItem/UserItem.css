@@ -1,0 +1,30 @@
+.user-item__container {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.user-item__filename {
+  margin: 1rem;
+}
+
+.user-item__filename-clicked {
+  color: blue;
+}
+
+.user-item__image {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.user-item__image-clicked:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}

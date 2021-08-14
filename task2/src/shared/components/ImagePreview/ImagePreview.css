@@ -1,0 +1,29 @@
+.image-preview__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 20;
+}
+
+.image-preview__container img {
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  animation: fade 1s linear;
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}

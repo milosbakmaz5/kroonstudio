@@ -1,0 +1,6 @@
+.users-list__container {
+  scroll-behavior: smooth;
+  margin: 5rem 2rem;
+  padding: 0;
+  list-style: none;
+}
